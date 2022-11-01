@@ -1,0 +1,236 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "F9610871-0955-494F-A5C3-51D1A281BAB3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "0D177E9E-47BE-48C6-BE70-DCB974010037" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Frying Pan Ceramic"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "F590BB99-340D-40BE-A7DE-8851FE58D7A8"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.FryingPanCeramic.17b364ab-b904-4c83-90fc-716071ecb1a4",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DAA986C7-6ED3-4C56-B4E7-475A946360B6"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        5.5276846069318708e-06,
+                        -1.3806455775194383e-14,
+                        0.14051388204097748,
+                        0,
+                        8.279049642756827e-19,
+                        0.14051432907581329,
+                        1.3806500667940588e-14,
+                        0,
+                        -0.14051388204097748,
+                        2.84695559409686e-19,
+                        5.5276846069318708e-06,
+                        0,
+                        0.025398876518011093,
+                        0.05600309744477272,
+                        -0.013656564056873322,
+                        1
+                      ]
+                    }
+                  },
+                  "02AAC24F-A052-472D-9DBC-687ED0823CFD" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Chocolate Doughnut"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "CA582A9B-8BAA-4FDB-99C8-4FFD1DB51B0D"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.ChocolateDoughnut.e44bcd2a-9bc3-45ef-9fe3-05c5d4030a01",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "10B3FC4C-C275-463C-9023-BF595EB6AA08"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.28738647699356079,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.28738647699356079,
+                        2.0483818092241479e-14,
+                        0,
+                        0,
+                        -2.0483818092241479e-14,
+                        0.28738647699356079,
+                        0,
+                        -0.020263297483325005,
+                        0.063010618090629578,
+                        -0.012820275500416756,
+                        1
+                      ]
+                    }
+                  },
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "80228DB1-6297-4759-BBD0-A88F06ABAC6B" : null,
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Box",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99685335159301758,
+                  -2.0507469056241234e-09,
+                  0.079268015921115875,
+                  0,
+                  0.016022449359297752,
+                  0.97935861349105835,
+                  -0.20149405300617218,
+                  0,
+                  -0.077631838619709015,
+                  0.20213006436824799,
+                  0.97627699375152588,
+                  0,
+                  0.058888591825962067,
+                  0.029012545943260193,
+                  0.59818750619888306,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

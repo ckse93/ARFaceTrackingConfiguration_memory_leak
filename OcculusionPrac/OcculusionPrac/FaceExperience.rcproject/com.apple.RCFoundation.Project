@@ -1,0 +1,166 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "F9610871-0955-494F-A5C3-51D1A281BAB3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "C51119A4-8C9B-42B8-9338-5B69DB29E50D" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Frying Pan Ceramic"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2A01F957-A356-4940-A74D-6E3D38CCF5AB"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.FryingPanCeramic.17b364ab-b904-4c83-90fc-716071ecb1a4",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "545E5C6F-C523-47FF-8520-2E72231A73D8"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4.7591897782695014e-06,
+                        -5.2465216517766627e-15,
+                        0.16295091807842255,
+                        0,
+                        9.7998277905310747e-20,
+                        0.16295203566551208,
+                        5.2465572271604474e-15,
+                        0,
+                        -0.16295091807842255,
+                        -5.4657826593168083e-20,
+                        4.7591897782695014e-06,
+                        0,
+                        0.018417637795209885,
+                        0.071772500872612,
+                        -0.010907280258834362,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "facePan",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.9996834397315979,
+                  7.4930311955156981e-10,
+                  -0.025160489603877068,
+                  0,
+                  0.010231861844658852,
+                  0.91357779502868652,
+                  0.40653520822525024,
+                  0,
+                  0.022986060008406639,
+                  -0.4066639244556427,
+                  0.91328859329223633,
+                  0,
+                  0.014499224722385406,
+                  -0.24869100749492645,
+                  0.56285136938095093,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

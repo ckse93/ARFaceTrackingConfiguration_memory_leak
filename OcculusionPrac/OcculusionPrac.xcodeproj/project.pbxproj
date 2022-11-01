@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB66C98A290C2C700086867D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66C989290C2C700086867D /* AppDelegate.swift */; };
+		FB66C98C290C2C700086867D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66C98B290C2C700086867D /* ContentView.swift */; };
+		FB66C98E290C2C700086867D /* FaceExperience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = FB66C98D290C2C700086867D /* FaceExperience.rcproject */; };
+		FB66C990290C2C710086867D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB66C98F290C2C710086867D /* Assets.xcassets */; };
+		FB66C993290C2C710086867D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB66C992290C2C710086867D /* Preview Assets.xcassets */; };
+		FB66C99D290C2C710086867D /* OcculusionPracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66C99C290C2C710086867D /* OcculusionPracTests.swift */; };
+		FB66C9A7290C2C710086867D /* OcculusionPracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66C9A6290C2C710086867D /* OcculusionPracUITests.swift */; };
+		FB66C9A9290C2C710086867D /* OcculusionPracUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66C9A8290C2C710086867D /* OcculusionPracUITestsLaunchTests.swift */; };
+		FB66C9BA29103BF30086867D /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = FB66C9B929103BF30086867D /* Experience.rcproject */; };
+		FB66C9BB291042160086867D /* FaceExperience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = FB66C98D290C2C700086867D /* FaceExperience.rcproject */; };
+		FB66C9BC291042160086867D /* FaceExperience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = FB66C98D290C2C700086867D /* FaceExperience.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB66C999290C2C710086867D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB66C97E290C2C700086867D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB66C985290C2C700086867D;
+			remoteInfo = OcculusionPrac;
+		};
+		FB66C9A3290C2C710086867D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB66C97E290C2C700086867D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB66C985290C2C700086867D;
+			remoteInfo = OcculusionPrac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB66C986290C2C700086867D /* OcculusionPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcculusionPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB66C989290C2C700086867D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB66C98B290C2C700086867D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB66C98D290C2C700086867D /* FaceExperience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FaceExperience.rcproject; sourceTree = "<group>"; };
+		FB66C98F290C2C710086867D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB66C992290C2C710086867D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB66C998290C2C710086867D /* OcculusionPracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OcculusionPracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB66C99C290C2C710086867D /* OcculusionPracTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcculusionPracTests.swift; sourceTree = "<group>"; };
+		FB66C9A2290C2C710086867D /* OcculusionPracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OcculusionPracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB66C9A6290C2C710086867D /* OcculusionPracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcculusionPracUITests.swift; sourceTree = "<group>"; };
+		FB66C9A8290C2C710086867D /* OcculusionPracUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcculusionPracUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB66C9B929103BF30086867D /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB66C983290C2C700086867D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB66C995290C2C710086867D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB66C99F290C2C710086867D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB66C97D290C2C700086867D = {
+			isa = PBXGroup;
+			children = (
+				FB66C9B929103BF30086867D /* Experience.rcproject */,
+				FB66C988290C2C700086867D /* OcculusionPrac */,
+				FB66C99B290C2C710086867D /* OcculusionPracTests */,
+				FB66C9A5290C2C710086867D /* OcculusionPracUITests */,
+				FB66C987290C2C700086867D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB66C987290C2C700086867D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB66C986290C2C700086867D /* OcculusionPrac.app */,
+				FB66C998290C2C710086867D /* OcculusionPracTests.xctest */,
+				FB66C9A2290C2C710086867D /* OcculusionPracUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB66C988290C2C700086867D /* OcculusionPrac */ = {
+			isa = PBXGroup;
+			children = (
+				FB66C989290C2C700086867D /* AppDelegate.swift */,
+				FB66C98B290C2C700086867D /* ContentView.swift */,
+				FB66C98D290C2C700086867D /* FaceExperience.rcproject */,
+				FB66C98F290C2C710086867D /* Assets.xcassets */,
+				FB66C991290C2C710086867D /* Preview Content */,
+			);
+			path = OcculusionPrac;
+			sourceTree = "<group>";
+		};
+		FB66C991290C2C710086867D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB66C992290C2C710086867D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB66C99B290C2C710086867D /* OcculusionPracTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB66C99C290C2C710086867D /* OcculusionPracTests.swift */,
+			);
+			path = OcculusionPracTests;
+			sourceTree = "<group>";
+		};
+		FB66C9A5290C2C710086867D /* OcculusionPracUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB66C9A6290C2C710086867D /* OcculusionPracUITests.swift */,
+				FB66C9A8290C2C710086867D /* OcculusionPracUITestsLaunchTests.swift */,
+			);
+			path = OcculusionPracUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB66C985290C2C700086867D /* OcculusionPrac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB66C9AC290C2C710086867D /* Build configuration list for PBXNativeTarget "OcculusionPrac" */;
+			buildPhases = (
+				FB66C982290C2C700086867D /* Sources */,
+				FB66C983290C2C700086867D /* Frameworks */,
+				FB66C984290C2C700086867D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OcculusionPrac;
+			productName = OcculusionPrac;
+			productReference = FB66C986290C2C700086867D /* OcculusionPrac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB66C997290C2C710086867D /* OcculusionPracTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB66C9AF290C2C710086867D /* Build configuration list for PBXNativeTarget "OcculusionPracTests" */;
+			buildPhases = (
+				FB66C994290C2C710086867D /* Sources */,
+				FB66C995290C2C710086867D /* Frameworks */,
+				FB66C996290C2C710086867D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB66C99A290C2C710086867D /* PBXTargetDependency */,
+			);
+			name = OcculusionPracTests;
+			productName = OcculusionPracTests;
+			productReference = FB66C998290C2C710086867D /* OcculusionPracTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB66C9A1290C2C710086867D /* OcculusionPracUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB66C9B2290C2C710086867D /* Build configuration list for PBXNativeTarget "OcculusionPracUITests" */;
+			buildPhases = (
+				FB66C99E290C2C710086867D /* Sources */,
+				FB66C99F290C2C710086867D /* Frameworks */,
+				FB66C9A0290C2C710086867D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB66C9A4290C2C710086867D /* PBXTargetDependency */,
+			);
+			name = OcculusionPracUITests;
+			productName = OcculusionPracUITests;
+			productReference = FB66C9A2290C2C710086867D /* OcculusionPracUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB66C97E290C2C700086867D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB66C985290C2C700086867D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FB66C997290C2C710086867D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB66C985290C2C700086867D;
+					};
+					FB66C9A1290C2C710086867D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB66C985290C2C700086867D;
+					};
+				};
+			};
+			buildConfigurationList = FB66C981290C2C700086867D /* Build configuration list for PBXProject "OcculusionPrac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB66C97D290C2C700086867D;
+			productRefGroup = FB66C987290C2C700086867D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB66C985290C2C700086867D /* OcculusionPrac */,
+				FB66C997290C2C710086867D /* OcculusionPracTests */,
+				FB66C9A1290C2C710086867D /* OcculusionPracUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB66C984290C2C700086867D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB66C993290C2C710086867D /* Preview Assets.xcassets in Resources */,
+				FB66C990290C2C710086867D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB66C996290C2C710086867D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB66C9A0290C2C710086867D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB66C982290C2C700086867D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB66C98C290C2C700086867D /* ContentView.swift in Sources */,
+				FB66C98A290C2C700086867D /* AppDelegate.swift in Sources */,
+				FB66C9BA29103BF30086867D /* Experience.rcproject in Sources */,
+				FB66C98E290C2C700086867D /* FaceExperience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB66C994290C2C710086867D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB66C9BB291042160086867D /* FaceExperience.rcproject in Sources */,
+				FB66C99D290C2C710086867D /* OcculusionPracTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB66C99E290C2C710086867D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB66C9A9290C2C710086867D /* OcculusionPracUITestsLaunchTests.swift in Sources */,
+				FB66C9A7290C2C710086867D /* OcculusionPracUITests.swift in Sources */,
+				FB66C9BC291042160086867D /* FaceExperience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB66C99A290C2C710086867D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB66C985290C2C700086867D /* OcculusionPrac */;
+			targetProxy = FB66C999290C2C710086867D /* PBXContainerItemProxy */;
+		};
+		FB66C9A4290C2C710086867D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB66C985290C2C700086867D /* OcculusionPrac */;
+			targetProxy = FB66C9A3290C2C710086867D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB66C9AA290C2C710086867D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB66C9AB290C2C710086867D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB66C9AD290C2C710086867D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OcculusionPrac/Preview Content\"";
+				DEVELOPMENT_TEAM = D9LCY75JDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cheeseboy.OcculusionPrac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB66C9AE290C2C710086867D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OcculusionPrac/Preview Content\"";
+				DEVELOPMENT_TEAM = D9LCY75JDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cheeseboy.OcculusionPrac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB66C9B0290C2C710086867D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9LCY75JDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cheeseboy.OcculusionPracTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OcculusionPrac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OcculusionPrac";
+			};
+			name = Debug;
+		};
+		FB66C9B1290C2C710086867D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9LCY75JDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cheeseboy.OcculusionPracTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OcculusionPrac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OcculusionPrac";
+			};
+			name = Release;
+		};
+		FB66C9B3290C2C710086867D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9LCY75JDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cheeseboy.OcculusionPracUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OcculusionPrac;
+			};
+			name = Debug;
+		};
+		FB66C9B4290C2C710086867D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9LCY75JDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cheeseboy.OcculusionPracUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OcculusionPrac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB66C981290C2C700086867D /* Build configuration list for PBXProject "OcculusionPrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB66C9AA290C2C710086867D /* Debug */,
+				FB66C9AB290C2C710086867D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB66C9AC290C2C710086867D /* Build configuration list for PBXNativeTarget "OcculusionPrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB66C9AD290C2C710086867D /* Debug */,
+				FB66C9AE290C2C710086867D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB66C9AF290C2C710086867D /* Build configuration list for PBXNativeTarget "OcculusionPracTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB66C9B0290C2C710086867D /* Debug */,
+				FB66C9B1290C2C710086867D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB66C9B2290C2C710086867D /* Build configuration list for PBXNativeTarget "OcculusionPracUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB66C9B3290C2C710086867D /* Debug */,
+				FB66C9B4290C2C710086867D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB66C97E290C2C700086867D /* Project object */;
+}
